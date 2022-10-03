@@ -1,0 +1,90 @@
+function init(){
+    let nama = 'Jesika';
+    function tampilkanNama(){
+        console.log(nama);
+    }
+    tampilkanNama();
+}
+init();
+============================================
+
+var tampilpesan = function(nama){
+    setTimeout(() => {
+        alert ('hii'+ nama);
+    }, 100)
+}
+tampilpesan('Jesika')
+=============================================
+
+alert('anyoeng')
+=============================================
+
+function tampilpesan(nama){
+    alert ('Anyoeng' + nama);
+}
+tampilpesan('Jesika')
+===========================================
+
+function submit (){
+    setTimeout(()=>{
+        console.log('finish');
+        alert('Anda selesai mengerjakan tugas');
+    }, 100)
+}
+undefined
+tugas('Pengembangan Aplikasi Mobile', submit);
+=============================================
+
+function hii (nama){
+ alert('hii'+nama+'Nice to Meet You');   
+}
+function tampilpesan(callback){
+    const nama= prompt ('Inputkan nama anda')
+    callback (nama)
+}
+tampilpesan(hii);
+============================================
+
+let pukul="12"
+let p = new Promise ((resolve, reject)=>{
+    if (pukul >= 1 && pukul < 12){
+        resolve ("Pagi")
+    }else if (pukul >= 12 && pukul < 16){
+        resolve ("Siang")
+    } else if (pukul >= 16 && pukul < 20){
+        resolve(" Sore")
+    } else{
+        reject ("Malam")
+    }
+})
+
+p.then ((result) => {
+    alert (result)
+}). catch ((eror) => {
+})
+==========================================
+
+let kelas = 'PAm - RA';
+constfirst = () => {
+    let name = 'Jesika';
+    second();
+    console.log('${name}');
+}
+() => {
+    let name = 'Jesika';
+    second();
+    console.log('${name}');
+}
+const second = () => {
+    let name = 'Jesika';
+    third();
+    console.log('${name}');
+}
+const third = () => {
+    let name = 'Putri';
+    console.log('${name}');
+}
+first();
+
+
+
