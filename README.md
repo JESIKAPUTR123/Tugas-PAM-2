@@ -1,6 +1,6 @@
 # Tugas-PAM-2
 Jesika Putri_120140050_PAM_RB_ Tugas Individu <br />
-Tuga ini memuat penjelasan tentang:  <br />
+Tugas ini memuat penjelasan tentang:  <br />
 
 1.Closure  <br />
 2.Immediately Invoked Function Expression  <br />
